@@ -24,7 +24,7 @@ if(isset($_POST["register"])){
 				$message = "Аккаунт успешно создался";
 			} 
 			else {
- 				$message = "Что то пошло не так";
+ 				$message = "Что-то пошло не так";
   			} } 
   		else {
 			$message = "Такое имя пользователя уже занято";
@@ -37,12 +37,12 @@ if (!empty($message)) {
 }
 ?>
 		<form action="reg.php" method="post" name="regform">
-			<input   name="full_name"  type="text">
-			<input   name="email" type="email">
-			<input   name="username" type="text">
-			<input   name="password"   type="password">
+			<input   name="full_name" placeholder="Имя" type="text">
+			<input   name="email" placeholder="Почта" type="email">
+			<input   name="username" placeholder="Логин" type="text">
+			<input   name="password" placeholder="Пароль" type="password">
 			<input   name= "register" type="submit" value="Зарегистрироваться">
 		</form>
-		<a href="log.php">вход</a>
+		<a href="log.php"><button>Вход</button></a>
 	</body>
 </html>

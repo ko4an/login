@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
 $db   = 'list';
-$user = 'root';
+$user = 'mysql';
 $pass = '4752';
 $charset = 'utf8';
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
